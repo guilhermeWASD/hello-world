@@ -7,13 +7,18 @@
 		<meta name="application-name" content="HelloWorld">
 		<meta name="viewport" content="widt=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
-		<link rel="module" href="code.js">
+		<script src="code.js"></script>
 		
 	</head>
 		
 	<body>
 		<div class="center">
-			<span class="msg">Hello World!<span>
+			<span class="msg" id="texto">Hello World</span>
+			<div>
+				<button id="bra" onclick="pais(this.id)"><img src="images/brasil.jpg" width="42" height="32"></button>
+				<button id="eua" onclick="pais(this.id)"><img src="images/eua.webp" width="42" height="32"></button>
+				<button id="jap" onclick="pais(this.id)"><img src="images/japao.webp" width="42" height="32"></button>
+				<button id="fra" onclick="pais(this.id)"><img src="images/franca.png" width="42" height="32"></button>
+			</div>
 		</div>
-	</body>
 </html>
